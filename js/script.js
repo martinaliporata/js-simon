@@ -19,4 +19,8 @@ button.addEventListener ('click', function() {
             clearInterval(timer);
             alert('Now choose');
     }, 30000)
+
+    const hiddenNumber = setTimeout(function(){
+        userChoice.classList.add("display")
+    }, 30000)
 })
