@@ -23,4 +23,8 @@ button.addEventListener ('click', function() {
     const hiddenNumber = setTimeout(function(){
         userChoice.classList.add("display")
     }, 30000)
+
+    for (let index = 0; index <5; index++) {
+        const userPrompt = Number.parseInt(prompt('Scrivi i numeri che hai appena visto'))
+    }
 })
