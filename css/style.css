@@ -1,3 +1,40 @@
-.display {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+
+section#output {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* width: 1000px;
+    height: 1000px; */
+    margin: 0 auto;
+}
+section#output article {
+    border: 2px solid white;
+}
+
+section#output > article {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 100%/6;
+    height: 100%/6;
+    font-weight: bold;
+}
+
+section#output > article.disabled {
     display: none;
 }
+

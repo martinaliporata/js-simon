@@ -5,13 +5,8 @@ Dopo 30 secondi i numeri scompaiono e l'utente deve inserire, uno alla volta, i 
 Dopo che sono stati inseriti i 5 numeri, il software dice quanti e quali dei numeri da indovinare sono stati individuati.
 
 
-Avviare un timer di 30 secondi: Utilizziamo setTimeout per avviare un timer di 30 secondi.
-Nascondere i numeri: Dopo 30 secondi, aggiungiamo una classe CSS .hidden all'elemento numbersDiv per nascondere i numeri.
-Chiedere all'utente di inserire i numeri: Utilizziamo un ciclo for per chiedere all'utente di inserire i numeri che ha visto, uno alla volta, tramite il prompt.
-
-
 Creare un elemento in html e riprenderlo in js con getelementbyid e appendchild per generare i 5 numeri casuali(con math.random)
 Con setTimeOut creiamo un timer di 30 secondi
 Aggiungere successivamente nel css la classe hidden per far sì che i numeri spariscano
-Creo un pormpt per l'utente per chidere di isnerire i numeri che ha visto in precdenza (con un ciclo for perché devo chiedergliene 5)
+Creo un pormpt per l'utente per chidere di isnerire i numeri che ha visto in precedenza (con un ciclo for perché devo chiedergliene 5)
 Verifico con if quanti e quali numeri son stati azzeccati
