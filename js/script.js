@@ -21,14 +21,13 @@ function startNewMemoryGame(numberOfCards, timer) {
             guessedNumbers = retrieveGuesses(numbersToShow.length)
             console.log(numbersToShow, guessedNumbers)   
             renderNumbers(containerElement, numbersToShow)
+            console.log(getCorrectAnswers(numbersToShow, guessedNumbers))
             renderNumbers(containerElement, getCorrectAnswers(numbersToShow, guessedNumbers))     
         }, 0);
 
         console.log(guessedNumbers)
     }, timer * 1000)
 }
-
-console.log(getCorrectAnswers(numbersToShow, guessedNumbers))
 
 const generatedNumbers = ''
 
@@ -53,6 +52,7 @@ function getCorrectAnswers(numbers, guesses) {
     for (let index = 0; index < numbers.length; index++) {
         answers.push(guesses.includes(numbers[index]))
     }
+    return answers;
 }
 
 function getRandomInt(min,max){
