@@ -28,6 +28,8 @@ function startNewMemoryGame(numberOfCards, timer) {
     }, timer * 1000)
 }
 
+console.log(getCorrectAnswers(numbersToShow, guessedNumbers))
+
 const generatedNumbers = ''
 
 function renderNumbers(containerEl, generatedNumbers){
